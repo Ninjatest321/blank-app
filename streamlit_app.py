@@ -82,7 +82,7 @@ def check_already_applied(new_internships, applied_internships, fuzzy_threshold=
     return already_applied
 
 # Main Streamlit app
-def main():
+if 1 == 1:
     st.title("Internship Salary Checker with Fuzzy Matching")
     
     # Sidebar to specify the pay threshold
@@ -182,5 +182,5 @@ def main():
         combined_table = pd.concat([combined_above, combined_below, combined_not_found, combined_applied], ignore_index=True)
         st.dataframe(combined_table)
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
