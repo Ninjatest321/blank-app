@@ -102,7 +102,7 @@ if 1 == 1:
     excel_data = read_excel_data(excel_file)
     if excel_data.empty:
         st.error("No valid data found in the Excel file.")
-        return
+        # return
 
     # Calculate and display the percentage of companies above the threshold
     percentage_above_threshold = calculate_threshold_percentage(excel_data, threshold)
@@ -131,7 +131,7 @@ if 1 == 1:
     if st.button("Check Salaries"):
         if not internship_input.strip():
             st.warning("Please enter internship company names.")
-            return
+            # return
         
         # Split user input into a list of company names
         internships = internship_input.strip().split('\n')
