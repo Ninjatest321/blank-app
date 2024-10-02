@@ -1,1 +1,6 @@
 streamlit
+pandas
+fuzzywuzzy
+openpyxl
+python-Levenshtein
+xlsxwriter
